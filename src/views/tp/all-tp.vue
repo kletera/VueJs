@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-3 gap-4">
+    <div class="grid grid-cols-2 gap-4">
         <Route
           v-for="link in links"
           :key="link.path"
@@ -22,8 +22,8 @@
     }
 
     const links = [
-        new Link('/ex-text-interpolation', 'Exercice 1 : Text Interpolation'),
-        new Link('/ex-event-binding','Exercice 2 Event Binding Mode : Composition')
+        new Link('/tp-databinding', 'TP 1 : TP-Databinding : Profil utilisateur (interpolation + v-bind)'),
+        
     ];
 </script>
 

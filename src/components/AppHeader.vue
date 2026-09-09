@@ -16,6 +16,11 @@
                             <button>Exercice</button>
                         </router-link>
                     </li>
+                    <li>
+                        <router-link to="/tp">
+                            <button>Tp</button>
+                        </router-link>
+                    </li>
                 </ul>
             </div>
             <a class="btn btn-ghost text-xl">daisyUI</a>
@@ -30,6 +35,11 @@
                 <li>
                     <router-link to="/exercices">
                         <button>Exercices</button>
+                    </router-link>
+                </li>
+                <li>
+                    <router-link to="/tp">
+                        <button>Tp</button>
                     </router-link>
                 </li>
             </ul>

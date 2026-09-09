@@ -35,6 +35,16 @@ const routes: RouteRecordRaw[] = [
         component:()=> import('../views/exercices/ex-text-interpolation.vue'),
     },
     {
+        path:'/ex-event-binding',
+        name: 'ex-event-binding',
+        component:()=> import('../views/exercices/ex-event-binding.vue'),
+    },
+    {
+        path:'/tp',
+        name: 'tp',
+        component:()=> import('../views/tp/all-tp.vue'),
+    },
+    {
         path:'/tp-databinding',
         name: 'tp-databinding',
         component:()=> import('../views/tp/tp-databinding.vue'),

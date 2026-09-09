@@ -19,9 +19,9 @@
 
 <script setup lang='ts'>
 import { ref } from "vue";
-    const imgSrc='https://picsum.photos/100/100';
-    const ageUser=ref(10);
-    const name=ref('Tom Jédusor');
+    const imgSrc : string='https://picsum.photos/100/100';
+    const ageUser=ref<number>(10);
+    const name=ref<string>('Tom Jédusor');
     function age(nb:number) {
         return nb+10;
     }
