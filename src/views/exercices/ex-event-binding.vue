@@ -2,11 +2,11 @@
     <div class="container mx-auto p-4 md:p-8">
         <div class="card bg-base-100 shadow-xl rounded-box">
             <div class="card-body">
-                <h5 class="card-title text-2xl font-bold">Exercice Event Binding (directive v-on)</h5>
-                <div>
-                    <button v-on:click="incrementer" class="btn btn-error">+</button>
-                    <p>le nombre : {{ nombre }}</p>
-                    <button v-on:click.right="décrémenter" class="btn btn-success">-</button>
+                <h5 class="card-title text-2xl font-bold gap-4">Exercice Event Binding (directive v-on)</h5>
+                <div class="flex text-center justify-center gap-4">
+                    <button v-on:click="incrementer(100)" class="btn btn-error">+</button>
+                    <span>le nombre : {{ nombre }}</span>
+                    <button v-on:click.right="décrémenter(50)" class="btn btn-success">-</button>
                 </div>
             </div>
         </div>
@@ -16,12 +16,12 @@
 <script setup lang='ts'>
     import { ref } from "vue";
     let nombre= ref(0);
-    function incrementer(){
-        return nombre.value+=100;
+    function incrementer(nb:number){
+        return nombre.value+=nb;
     }
 
-    function décrémenter(){
-        return nombre.value-=55;
+    function décrémenter(nb:number){
+        return nombre.value-=nb;
     }
 </script>
 
