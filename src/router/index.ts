@@ -24,6 +24,8 @@ const routes: RouteRecordRaw[] = [
         path: '/contact',
         component: () => import('../views/contact.vue'),
     },
+
+    // Exercice
     {
         path:'/exercices',
         name: 'exercices',
@@ -40,6 +42,18 @@ const routes: RouteRecordRaw[] = [
         component:()=> import('../views/exercices/ex-event-binding.vue'),
     },
     {
+        path: "/ex-dynamic-styling",
+        name: 'ex-dynamic-styling',
+        component:()=>import('../views/exercices/ex-dynamic-styling.vue'),
+    },
+    {
+        path: "/ex-v-if",
+        name: "ex-v-if",
+        component:()=>import('../views/exercices/ex-v-if.vue'),
+    },
+
+    // TP
+    {
         path:'/tp',
         name: 'tp',
         component:()=> import('../views/tp/all-tp.vue'),
@@ -49,6 +63,8 @@ const routes: RouteRecordRaw[] = [
         name: 'tp-databinding',
         component:()=> import('../views/tp/tp-databinding.vue'),
     },
+
+    // Page Error
     {
         path: '/:pathMatch(.*)*',
         component:()=> import('../views/not-found.vue'),

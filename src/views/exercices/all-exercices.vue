@@ -23,7 +23,9 @@
 
     const links = [
         new Link('/ex-text-interpolation', 'Exercice 1 : Text Interpolation'),
-        new Link('/ex-event-binding','Exercice 2 Event Binding Mode : Composition')
+        new Link('/ex-event-binding','Exercice 2 Event Binding Mode : Composition'),
+        new Link("/ex-dynamic-styling",'Dynamic Styling (class)'),
+        new Link('ex-v-if','Exercice 4 : V-if'),
     ];
 </script>
 
