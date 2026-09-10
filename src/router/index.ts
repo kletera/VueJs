@@ -51,6 +51,11 @@ const routes: RouteRecordRaw[] = [
         name: "ex-v-if",
         component:()=>import('../views/exercices/ex-v-if.vue'),
     },
+    {
+        path: '/ex-life-api',
+        name: 'ex-life-api',
+        component:()=>import('../views/exercices/ex-life-api.vue'),
+    },
 
     // TP
     {
@@ -62,6 +67,11 @@ const routes: RouteRecordRaw[] = [
         path:'/tp-databinding',
         name: 'tp-databinding',
         component:()=> import('../views/tp/tp-databinding.vue'),
+    },
+    {
+        path:'/tp-watch',
+        name: 'tp-watch',
+        component:()=> import('../views/tp/tp-watch.vue'),
     },
 
     // Page Error

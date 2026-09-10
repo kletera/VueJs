@@ -28,9 +28,6 @@
     function supFilm(key:number):void{
         mesFilms.value.splice(key,1);
     }
-    
-
-
 </script>
 
 <style scoped lang="css">
