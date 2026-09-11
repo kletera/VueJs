@@ -24,6 +24,7 @@
     const links = [
         new Link('/tp-databinding', 'TP 1 : TP-Databinding : Profil utilisateur (interpolation + v-bind)'),
         new Link('/tp-watch','Tp Reactivité : le Numéro Gagnant'),
+        new Link('/tp-form-securiser',"TP : Formulaire d'Inscription Sécurisé"),
         
     ];
 </script>

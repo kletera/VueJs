@@ -73,6 +73,11 @@ const routes: RouteRecordRaw[] = [
         name: 'tp-watch',
         component:()=> import('../views/tp/tp-watch.vue'),
     },
+    {
+        path:'/tp-form-securiser',
+        name: 'tp-form-securiser',
+        component:()=> import('../views/tp/tp-form-securiser.vue'),
+    },
 
     // Page Error
     {
