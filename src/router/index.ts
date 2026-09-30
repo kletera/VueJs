@@ -79,6 +79,90 @@ const routes: RouteRecordRaw[] = [
         component:()=> import('../views/tp/tp-form-securiser.vue'),
     },
 
+    // Lecon
+    {
+        path:'/lecon',
+        name: 'lecon',
+        component:()=> import('../views/lecon/all-lecon.vue'),
+    },
+    {
+        path:'/lesson-attribute-binding',
+        name: 'lesson-attribute-binding',
+        component:()=> import('../views/lecon/lesson-attribute-binding.vue'),
+    },
+    {
+        path:'/lesson-computed-properties',
+        name: 'lesson-computed-properties',
+        component:()=> import('../views/lecon/lesson-computed-properties.vue'),
+    },
+    {
+        path:'/lesson-conditional-rendering',
+        name: 'lesson-conditional-rendering',
+        component:()=> import('../views/lecon/lesson-conditional-rendering.vue'),
+    },
+    {
+        path:'/lesson-dynamic-styling',
+        name: 'lesson-dynamic-styling',
+        component:()=> import('../views/lecon/lesson-dynamic-styling.vue'),
+    },
+    {
+        path:'/lesson-emit',
+        name: 'lesson-emit',
+        component:()=> import('../views/lecon/lesson-emit.vue'),
+    },
+    {
+        path:'/lesson-event-binding',
+        name: 'lesson-event-binding',
+        component:()=> import('../views/lecon/lesson-event-binding.vue'),
+    },
+    {
+        path:'/lesson-introduction',
+        name: 'lesson-introduction',
+        component:()=> import('../views/lecon/lesson-introduction.vue'),
+    },
+    {
+        path:'/lesson-lifecycle',
+        name: 'lesson-lifecycle',
+        component:()=> import('../views/lecon/lesson-lifecycle.vue'),
+    },
+    {
+        path:'/lesson-list-rendering',
+        name: 'lesson-list-rendering',
+        component:()=> import('../views/lecon/lesson-list-rendering.vue'),
+    },
+    {
+        path:'/lesson-props',
+        name: 'lesson-props',
+        component:()=> import('../views/lecon/lesson-props.vue'),
+    },
+    {
+        path:'/lesson-setup',
+        name: 'lesson-setup',
+        component:()=> import('../views/lecon/lesson-setup.vue'),
+    },
+    {
+        path:'/lesson-syntax',
+        name: 'lesson-syntax',
+        component:()=> import('../views/lecon/lesson-syntax.vue'),
+    },
+    {
+        path:'/lesson-text-interpolation',
+        name: 'lesson-text-interpolation',
+        component:()=> import('../views/lecon/lesson-text-interpolation.vue'),
+    },
+    {
+        path:'/lesson-two-way-binding',
+        name: 'lesson-two-way-binding',
+        component:()=> import('../views/lecon/lesson-two-way-binding.vue'),
+    },
+    {
+        path:'/lesson-watchers',
+        name: 'lesson-watchers',
+        component:()=> import('../views/lecon/lesson-watchers.vue'),
+    },
+
+    
+
     // Page Error
     {
         path: '/:pathMatch(.*)*',

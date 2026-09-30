@@ -21,6 +21,11 @@
                             <button>Tp</button>
                         </router-link>
                     </li>
+                    <li>
+                        <router-link to="/lecon">
+                            <button>Lecon</button>
+                        </router-link>
+                    </li>
                 </ul>
             </div>
             <a class="btn btn-ghost text-xl">daisyUI</a>
@@ -42,6 +47,11 @@
                         <button>Tp</button>
                     </router-link>
                 </li>
+                <li>
+                        <router-link to="/lecon">
+                            <button>Lecon</button>
+                        </router-link>
+                    </li>
             </ul>
         </div>
         <div class="navbar-end">
