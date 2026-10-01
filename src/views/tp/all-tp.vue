@@ -1,6 +1,6 @@
 <template>
     <div class="grid grid-cols-2 gap-4">
-        <Route
+        <CardRoute
           v-for="link in links"
           :key="link.path"
           :path="link.path"
@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang='ts'>
-    import Route from '../../components/Route.vue';
+    import CardRoute from '../../components/CardRoute.vue';
 
     class Link {
         path: string;

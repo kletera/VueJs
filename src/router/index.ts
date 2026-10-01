@@ -56,6 +56,31 @@ const routes: RouteRecordRaw[] = [
         name: 'ex-life-api',
         component:()=>import('../views/exercices/ex-life-api.vue'),
     },
+    {
+        path: '/ex-props',
+        name: 'ex-props',
+        component:()=>import('../views/exercices/ex-props.vue'),
+    },
+    {
+        path: '/ex-firebase-article-management',
+        name: 'ex-firebase-article-management',
+        component:()=>import('../views/exercices/ex-firebase-article-management.vue'),
+    },
+    {
+        path: '/ex-emit',
+        name: 'ex-emit',
+        component:()=>import('../views/exercices/ex-emit.vue'),
+    },
+    {
+        path: '/ex-firebase-file-rouge',
+        name: 'ex-firebase-file-rouge',
+        component:()=>import('../views/exercices/ex-firebase-file-rouge.vue'),
+    },
+    {
+        path: '/ex-pinia',
+        name: 'ex-pinia',
+        component:()=>import('../views/exercices/ex-pinia.vue'),
+    },
 
     // TP
     {
@@ -77,6 +102,18 @@ const routes: RouteRecordRaw[] = [
         path:'/tp-form-securiser',
         name: 'tp-form-securiser',
         component:()=> import('../views/tp/tp-form-securiser.vue'),
+    },
+
+    // auth
+    {
+        path:'/login',
+        name: 'login',
+        component:()=> import('../views/auth/login.vue'),
+    },
+    {
+        path:'/register',
+        name: 'register',
+        component:()=> import('../views/auth/register.vue'),
     },
 
     // Page Error

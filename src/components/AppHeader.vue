@@ -45,7 +45,9 @@
             </ul>
         </div>
         <div class="navbar-end">
-            <a class="btn">Button</a>
+
+            <button class="btn"><router-link to="/login">Connexion</router-link></button>
+            <button class="btn"><router-link to="/register">S'inscrire</router-link></button>
         </div>
         </div>
 </template>
