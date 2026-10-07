@@ -25,6 +25,7 @@
         new Link('/tp-databinding', 'TP 1 : TP-Databinding : Profil utilisateur (interpolation + v-bind)'),
         new Link('/tp-watch','Tp Reactivité : le Numéro Gagnant'),
         new Link('/tp-form-securiser',"TP : Formulaire d'Inscription Sécurisé"),
+        new Link('/tp-09-task','Évaluation Pratique : Vue 3, TypeScript & Props/Emits'),
         
     ];
 </script>

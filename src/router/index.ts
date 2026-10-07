@@ -78,6 +78,12 @@ const routes: RouteRecordRaw[] = [
         name: 'tp-form-securiser',
         component:()=> import('../views/tp/tp-form-securiser.vue'),
     },
+    {
+        path:'/tp-09-task',
+        name: 'tp-09-task',
+        component:()=> import('../views/tp/tp-09-task.vue'),
+    },
+
 
     // Lecon
     {
